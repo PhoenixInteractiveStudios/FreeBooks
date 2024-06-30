@@ -1,0 +1,9 @@
+main: org.burrow_studios.spigot.freebooks.Main
+name: FreeBooks
+version: '1.0.0'
+api-version: 1.20
+authors:
+  - nicosleax
+commands:
+  book:
+    usage: "/book"
