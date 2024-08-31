@@ -1,9 +1,17 @@
-main: org.burrow_studios.spigot.freebooks.Main
 name: FreeBooks
-version: '1.0.0'
+main: org.burrow_studios.spigot.freebooks.Main
+
+version: ${project.version}
+
 api-version: 1.20
+description: ${project.description}
+
 authors:
   - nicosleax
+  - TurtleException
+
 commands:
   book:
     usage: "/book"
+
+website: https://github.com/PhoenixInteractiveStudios/FreeBooks
